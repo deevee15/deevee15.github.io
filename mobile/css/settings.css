@@ -1,0 +1,84 @@
+#settings{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.settings_title{
+    background: #f9fafa;
+    border-bottom: 1px solid #e7e8ec;
+    font-size: 18px;
+    color: #42aaff;
+    width: 700px;   
+    padding: 15px;
+    padding-left: 30px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.settings_content{
+    background: #fff;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.settings_content div a{
+    position: relative;
+    display: block;
+    color: #42aaff;
+}
+#select_type{
+    margin-left: 1030px;
+    background: #fff;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    padding-bottom: 5px;padding-top: 5px;
+    margin-top: 80px;
+}
+#select_type ul li{
+    padding-left: 5px;
+    font-size: 18px;
+    height: 25px;
+}
+#select_type ul a{
+    color: #000;
+}
+.content_exp{
+    width: 700px;
+}
+.topup_balance{
+    width: 150px;
+    height: 25px;
+    background: #42aaff;
+    border: 1px solid #42aaff;
+    color: #fff;
+    border-radius: 2px;
+    margin-left: 250px;
+}
+.topup_balance:hover{
+    background: #5bb5ff;
+    border: 1px solid #5bb5ff;
+}
+.topup_balance:active{
+    padding-top: 1px;
+    background: #30a0fc;
+    border: 1px solid #30a0fc;
+}
+.donate_form{
+    width: 500px;
+    height: 200px;
+    background: #fff;
+    margin: 200px auto;
+}
+.donate_form input[type=text],.donate_form p,.donate_text{
+    margin-left: 50px;
+}
+.donate_close{
+    position: absolute;
+    margin-left: 475px;
+    margin-top: -82px;
+    background: url(/img/closeit.png);
+    width: 25px; height: 25px;
+}
+.donate_close:hover{
+    background: url(/img/closeit2.png);
+    width: 25px; height: 25px;
+}

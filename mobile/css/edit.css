@@ -1,0 +1,119 @@
+#edit{
+    background: #fff;
+    width: 400px;
+    height: auto;
+    margin-top: 80px;
+}
+@media (max-width: 8000px) {
+    #edit{
+        margin-left: 40%;
+    }
+}
+@media (max-width: 1920px) {
+    #edit{
+        margin-left: 35%;
+    }
+}
+@media (max-width: 1280px) {
+    #edit{
+        margin-left: 400px;
+    }
+}
+.select_edit{
+    text-align: center;
+    background: #fff;
+    line-height: 30px;
+    font-size: 18px;
+    height: 30px;
+    cursor: pointer;
+    border-bottom: 1px solid #e7e8ec;
+}
+.select_edit p{
+    position: absolute;
+    margin-left: 100px;
+}
+.input_names{
+    position: relative;
+    height: 100px;
+    margin-top: 55px;
+    width: 400px;
+    cursor: auto;
+}
+.input_birth{
+    position: absolute;
+    height: 70px;
+    width: 400px;
+    margin-top: 50px;
+    cursor: auto;
+    box-shadow: 5px;
+}
+.input_edu{
+    position: absolute;
+    height: 100px;
+    margin-top: 55px;
+    width: 400px;
+    cursor: auto;
+}
+.input_names p{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.edit_all{
+    margin-top: -20px;
+}
+.edit_all input[type=text]{
+    border: 1px solid #d1d1d1;
+    border-radius: 1px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    width: 250px;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 5px;
+    margin-left: 50px;
+}
+.edit_all input[type=text]:focus{
+    border: 1px solid #82c4fb;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.edit_all input[type=text]:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.edit_save{
+    margin-top: 5px;
+    background: #42aaff;
+    color: #fff;
+    border: 1px solid #42aaff;
+    width: 90px;
+    height: 22px;
+}
+.edit_save:active{
+    padding-top: 2px;
+}
+.e_birth p{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.e_birth select{
+    border: 1px solid #d1d1d1;
+}
+.e_edu p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.close{
+    background: url(/img/closeit.png);
+    width: 24px;
+    height: 25px;
+    margin-top: -24px;
+    margin-left: 255px;
+    position: absolute;
+    cursor: pointer;
+}
+.close:hover{
+    background: url(/img/closeit2.png);
+}

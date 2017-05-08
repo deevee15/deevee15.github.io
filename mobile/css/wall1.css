@@ -1,0 +1,25 @@
+.profile_wall_show{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 350px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    width: 540px;
+}
+.wall_show{
+    border-bottom: 1px solid #d1d1d1;
+    padding: 5px 5px 5px 10px;
+    margin-top: -50px;
+    margin-left: 52px;
+}
+.wall_show_user a{
+    color: #42aaff;
+}
+.wall_show_user a:hover{
+    text-decoration: underline;
+}
+.wall_show_date{
+    font-size: 10px;
+    color: #d1d1d1;
+}

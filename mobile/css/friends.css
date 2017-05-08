@@ -1,0 +1,84 @@
+#list_friends{
+    margin-top: 80px;
+}
+.list_friends_section,.list_friends_input{
+    margin-left: 400px;
+}
+.list_friends_profile{
+    margin-left: -500px;
+}
+.list_friends_section ul li{
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.list_friends_section ul a{
+    color: #000;
+}
+.list_friends_section ul{
+    background: #fff;
+    width: 500px;
+    height: 20px;
+    padding: 10px 20px;
+    border: 1px solid #66b6f8;
+    border-radius: 3px;
+}
+.list_friends_search{
+    width: 541px;
+    height: 30px;
+    padding-left: 30px;
+    margin-top: -19px;
+    border: none;
+    background: url(/img/search_icon.png) no-repeat #fff;
+    padding-left: 28px;
+    border-left: 20px solid transparent;
+    background-position: 0;
+    color: #000;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+}
+.list_friends_profile{
+    width: 540px;
+    background: #fff;
+    margin-top: -1px;
+    margin-left: 400px;
+    border: 1px solid #66b6f8;
+    border-radius: 3px;
+    position: relative;
+    display:block;
+}
+.list_friends_profile_avatar_img{
+    border-radius: 60px;
+    width: 110px;
+    height: 110px;
+    margin: 12px 10px;
+}
+.list_friends_profile_contacts{
+    margin-left: 150px;
+    position: absolute;
+    margin-top:-110px;
+    font-size: 16px;
+    font-weight: Bold;
+}
+.list_friends_profile_contacts a{
+    color: #42aaff;
+}
+.list_friends_profile_contacts a:hover{
+    text-decoration: underline;
+}
+.list_friends_profile_edu{
+    margin-left: 150px;
+    position: absolute;
+    margin-top:-79px;
+}
+.list_friends_profile_write{
+    margin-left: 150px;
+    position: absolute;
+    margin-top:-50px;
+}
+.list_friends_profile_write a{
+    color: #42aaff;
+}
+.list_friends_profile_write a:hover{
+    text-decoration: underline;
+}

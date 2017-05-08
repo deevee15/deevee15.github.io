@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body{
+	/*background: #4a192c;
+    background: #32bbff;*/
+    background: #82c4fb;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+a{
+	text-decoration: none;
+}
+.header_lg_img{
+    width: 54px;
+    height: 39px;
+    background: url(/img/main/logogoog.png) no-repeat;
+    padding-top: 1px;
+}
+#header{
+    background: #42aaff;
+    width: 100%;
+    height: 41px;
+}
+.header_lg{
+    font-family: Still;
+    font-size: 36px;
+    color: #fff;
+    margin-left: 100px;
+    position: absolute;
+}
+#content{
+    background: #fff;
+    border: 1px solid #42aaff;
+}
+.content_login form p{
+    background: #e7e8ec;
+    border-bottom: 1px solid #42aaff;
+    text-align: center;
+}
+.content_login form{
+    width: 490px;
+}
+.content_login form span{
+    color: #42aaff;
+    margin-left: 5px;
+}
+.login_mail,.login_pass{
+    background: #fff;
+    margin-left: 5px;
+    padding-left: 5px;
+    border: 1px solid #e7e8ec;
+    border-radius: 2px;
+    color: #d1d1d1;
+}
+.login_sbmt{
+    margin-top: 10px;
+    margin-left: 5px;
+    background: #42aaff;
+    border: 1px solid #42aaff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.login_sbmt:active{
+    padding-top: 1px;
+}
+.content_login a{
+    color: #42aaff;
+}
+.content_login a:hover{
+    text-decoration: underline;
+}
+.content_registration{
+    margin-left: 5px;
+    color: #42aaff;
+}
+.content_registration a button{
+    height: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    background: #e7e8ec;
+    border: 1px solid #e7e8ec;
+    border-radius: 2px;
+    color: #42aaff;
+    cursor: pointer;
+}
+.content_registration a button:active{
+    padding-top: 1px;
+}
+#footer ul li{
+    float: left;
+    font-size: 12px;
+    list-style: none;
+    padding-left: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+#footer ul li:hover{
+    text-decoration: underline;
+}
+@media(max-width: 1100px){
+    #header_lg_a{
+        width: 700px;
+        margin-left: 100px;
+    }
+    #content{
+        margin-left: 200px;
+        width: 700px;
+    }
+    .login_mail,.login_pass,.login_sbmt{
+        width: 690px;
+        height: 25px;
+    }
+    .content_registration a button{
+        width: 690px;
+    }
+    #footer{
+        margin-left: 470px;
+    }
+    .content_login form{
+        width: 700px;
+    }
+    .content_login a{
+        margin-left: 300px;
+    }
+}
+@media(max-width: 990px){
+    #header_lg_a{
+        width: 490px;
+        margin-left: 90px;
+    }
+    #content{
+        margin-left: 190px;
+        width: 490px;
+    }
+    .login_mail,.login_pass,.login_sbmt{
+        width: 480px;
+        height: 25px;
+    }
+    .content_registration a button{
+        width: 480px;
+    }
+    #footer{
+        margin-left: 340px;
+    }
+    .content_login form{
+        width: 490px;
+    }
+    .content_login a{
+        margin-left: 200px;
+    }
+}
+@media(max-width: 790px){
+    #header_lg_a{
+        width: 360px;
+        margin-left: 80px;
+    }
+    #content{
+        margin-left: 180px;
+        width: 360px;
+    }
+    .login_mail,.login_pass,.login_sbmt{
+        width: 350px;
+        height: 25px;
+    }
+    .content_registration a button{
+        width: 350px;
+    }
+    #footer{
+        margin-left: 260px;
+    }
+    .content_login form{
+        width: 360px;
+    }
+    .content_login a{
+        margin-left: 130px;
+    }
+}
+@media(max-width: 590px){
+    #header_lg_a{
+        margin-left: 40px;
+        width: 250px;
+    }
+    #content{
+        margin-left: 140px;
+        width: 250px;
+    }
+    .login_mail,.login_pass,.login_sbmt{
+        width: 240px;
+        height: 25px;
+    }
+    .content_registration a button{
+        width: 240px;
+    }
+    #footer{
+        margin-left: 180px;
+    }
+    .content_login form{
+        width: 250px;
+    }
+    .content_login a{
+        margin-left: 80px;
+    }
+}
+@media(max-width: 490px){
+    #header_lg_a{
+        margin-left: 10px;
+        width: 240px;
+    }
+    #content{
+        margin-left: 110px;
+        width: 240px;
+    }
+    .login_mail,.login_pass,.login_sbmt{
+        width: 230px;
+        height: 25px;
+    }
+    .content_registration a button{
+        width: 230px;
+    }
+    #footer{
+        margin-left: 130px;
+    }
+    .content_login form{
+        width: 240px;
+    }
+}
+#header_lg_a{
+    top: 0px;
+    color: #fff;
+    height: 38px;
+	display: block;
+    position: none;
+	outline: none;
+    padding-top: 3px;
+}
+#header_lg_a:hover{
+    background: #007eff;
+}
